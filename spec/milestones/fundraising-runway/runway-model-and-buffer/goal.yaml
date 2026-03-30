@@ -40,7 +40,7 @@ stage_relevance:
   primary: pre-seed
   applies_to: [pre-seed, seed, series-a]
 load:
-- goals/funding/runway-model-and-buffer/agent-context.md
+- goals/funding/runway-model-and-buffer/README.md
 - shared/roles/engineering-manager/responsibilities.md
 - industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
 - industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

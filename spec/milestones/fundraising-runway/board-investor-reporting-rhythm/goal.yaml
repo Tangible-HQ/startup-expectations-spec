@@ -40,7 +40,7 @@ stage_relevance:
   applies_to: [seed, series-a]
   ignore_before: pre-seed
 load:
-- goals/funding/board-investor-reporting-rhythm/agent-context.md
+- goals/funding/board-investor-reporting-rhythm/README.md
 - shared/roles/engineering-manager/responsibilities.md
 - industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
 - industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

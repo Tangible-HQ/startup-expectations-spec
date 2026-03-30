@@ -13,22 +13,22 @@ Prove the problem is real and your team can learn fast. Every decision should se
 
 ---
 
-1. [Founding roles and equity](../milestones/hiring-team/founding-roles-equity-decisions/agent-context.md) — split ownership, set vesting schedules, and define who does what before pressure hits
-2. [Co-founder alignment](../milestones/hiring-team/co-founder-alignment/agent-context.md) — surface values, working styles, and departure terms before conflict arises
-3. [Founder sustainability](../milestones/hiring-team/founder-sustainability/agent-context.md) — set a salary floor and personal runway so founders don't make desperate decisions
-4. [Company financial backbone](../milestones/operations-back-office/company-financial-backbone/agent-context.md) — open a business bank account, set up bookkeeping, and establish payroll basics
-5. [Runway model and buffer](../milestones/fundraising-runway/runway-model-and-buffer/agent-context.md) — know exactly how long you can operate and what levers extend it
-6. [Early financing rounds](../milestones/fundraising-runway/early-financing-rounds/agent-context.md) — friends and family, angels, and pre-seed SAFEs to get to first product
-7. [Grants, accelerators, and strategic capital](../milestones/fundraising-runway/grants-accelerators-strategic/agent-context.md) — non-dilutive funding and program benefits worth pursuing early
-8. [ICP and wedge](../milestones/revenue-gtm/icp-and-wedge/agent-context.md) — define exactly who your first customer is and why they'll choose you **[blocking — do before building]**
-9. [Problem–solution validation](../milestones/revenue-gtm/problem-solution-validation/agent-context.md) — gather evidence the problem exists and your solution fits before writing code **[blocking — do before building]**
-10. [Defining MVP scope](../milestones/product-delivery/defining-mvp-scope/agent-context.md) — decide what to cut so you can ship something real and testable fast
-11. [Technical foundation](../milestones/product-delivery/technical-foundation/agent-context.md) — stack choices, hosting decisions, and the minimum infrastructure to ship
-12. [Shipping your MVP](../milestones/product-delivery/shipping-mvp/agent-context.md) — get a real product into the hands of real users
-13. [Beta and launch paths](../milestones/product-delivery/beta-and-launch-paths/agent-context.md) — soft launch, waitlists, and early access programs to build initial momentum
-14. [Positioning and story](../milestones/revenue-gtm/positioning-and-story/agent-context.md) — articulate what you do, for whom, and why it matters in one clear sentence
-15. [Hiring your first developer](../milestones/hiring-team/first-developer-hire/agent-context.md) — who to hire, when, and how to evaluate technical candidates **[conditional — only if founders cannot build]**
-16. [IP and trademarks basics](../milestones/trust-compliance/ip-trademarks-basics/agent-context.md) — run a name search now; file a provisional patent or trademark when the name is locked **[conditional]**
+1. [Founding roles and equity](../milestones/hiring-team/founding-roles-equity-decisions/README.md) — split ownership, set vesting schedules, and define who does what before pressure hits
+2. [Co-founder alignment](../milestones/hiring-team/co-founder-alignment/README.md) — surface values, working styles, and departure terms before conflict arises
+3. [Founder sustainability](../milestones/hiring-team/founder-sustainability/README.md) — set a salary floor and personal runway so founders don't make desperate decisions
+4. [Company financial backbone](../milestones/operations-back-office/company-financial-backbone/README.md) — open a business bank account, set up bookkeeping, and establish payroll basics
+5. [Runway model and buffer](../milestones/fundraising-runway/runway-model-and-buffer/README.md) — know exactly how long you can operate and what levers extend it
+6. [Early financing rounds](../milestones/fundraising-runway/early-financing-rounds/README.md) — friends and family, angels, and pre-seed SAFEs to get to first product
+7. [Grants, accelerators, and strategic capital](../milestones/fundraising-runway/grants-accelerators-strategic/README.md) — non-dilutive funding and program benefits worth pursuing early
+8. [ICP and wedge](../milestones/revenue-gtm/icp-and-wedge/README.md) — define exactly who your first customer is and why they'll choose you **[blocking — do before building]**
+9. [Problem–solution validation](../milestones/revenue-gtm/problem-solution-validation/README.md) — gather evidence the problem exists and your solution fits before writing code **[blocking — do before building]**
+10. [Defining MVP scope](../milestones/product-delivery/defining-mvp-scope/README.md) — decide what to cut so you can ship something real and testable fast
+11. [Technical foundation](../milestones/product-delivery/technical-foundation/README.md) — stack choices, hosting decisions, and the minimum infrastructure to ship
+12. [Shipping your MVP](../milestones/product-delivery/shipping-mvp/README.md) — get a real product into the hands of real users
+13. [Beta and launch paths](../milestones/product-delivery/beta-and-launch-paths/README.md) — soft launch, waitlists, and early access programs to build initial momentum
+14. [Positioning and story](../milestones/revenue-gtm/positioning-and-story/README.md) — articulate what you do, for whom, and why it matters in one clear sentence
+15. [Hiring your first developer](../milestones/hiring-team/first-developer-hire/README.md) — who to hire, when, and how to evaluate technical candidates **[conditional — only if founders cannot build]**
+16. [IP and trademarks basics](../milestones/trust-compliance/ip-trademarks-basics/README.md) — run a name search now; file a provisional patent or trademark when the name is locked **[conditional]**
 
 ---
 

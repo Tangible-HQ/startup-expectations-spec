@@ -90,4 +90,4 @@ Common goals early teams work toward. Each item has **one primary bucket** (`fun
 
 ## Detailed milestone packages
 
-Each bullet above has a matching folder under `spec/goals/<category>/<milestone-id>/` with **`goal.yaml`** and **`agent-context.md`**, plus the shared role **`load`** list. See **`goals/_registry.yaml`** for the full index.
+Each bullet above has a matching folder under `spec/goals/<category>/<milestone-id>/` with **`goal.yaml`** and **`README.md`**, plus the shared role **`load`** list. See **`goals/_registry.yaml`** for the full index.

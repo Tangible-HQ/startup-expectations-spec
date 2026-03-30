@@ -13,7 +13,7 @@ stage_relevance:
   applies_to: [seed, series-a]
   ignore_before: pre-seed
 load:
-- goals/funding/non-equity-financing-options/agent-context.md
+- goals/funding/non-equity-financing-options/README.md
 - shared/roles/engineering-manager/responsibilities.md
 - industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
 - industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

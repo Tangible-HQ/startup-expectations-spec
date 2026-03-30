@@ -13,27 +13,27 @@ Get to first repeatable signal — paying users, measurable retention, or a clea
 
 ---
 
-1. [Milestones that unlock the next round](../milestones/fundraising-runway/next-round-unlock-milestones/agent-context.md) — know the exact metrics and proof points Series A investors expect to see
-2. [Raising a seed round](../milestones/fundraising-runway/raising-seed-round/agent-context.md) — SAFEs, priced rounds, and how to structure a seed that doesn't harm your Series A
-3. [Investor pipeline and diligence](../milestones/fundraising-runway/investor-pipeline-diligence/agent-context.md) — build a lead list, run a tight process, and prepare for diligence before it starts
-4. [Cap table hygiene](../milestones/operations-back-office/cap-table-hygiene/agent-context.md) — clean up your ownership structure before new investors look at it
-5. [Runway dashboard and burn reviews](../milestones/operations-back-office/runway-dashboard-burn-reviews/agent-context.md) — track spend against milestones weekly so you're never surprised by cash-out
-6. [Unit economics experiments](../milestones/fundraising-runway/unit-economics-experiments/agent-context.md) — measure CAC, LTV, and payback period early, even if the numbers aren't pretty yet
-7. [Non-equity financing options](../milestones/fundraising-runway/non-equity-financing-options/agent-context.md) — revenue-based financing, venture debt, and other ways to extend runway without dilution **[conditional — only if runway is tight]**
-8. [First paying users or design partners](../milestones/revenue-gtm/first-paying-users-design-partners/agent-context.md) — close customers who pay real money or commit time in exchange for roadmap access **[blocking — required before goals 9–12]**
-9. [Feedback loop and metrics](../milestones/revenue-gtm/feedback-loop-metrics/agent-context.md) — instrument your product and run a regular cadence of customer interviews
-10. [Pricing and packaging](../milestones/revenue-gtm/pricing-and-packaging/agent-context.md) — test price points, understand willingness to pay, and structure tiers that hold up
-11. [Strategic design partners](../milestones/revenue-gtm/strategic-design-partners/agent-context.md) — bring in reference customers whose name and use case opens doors with future buyers
-12. [Community or open source](../milestones/revenue-gtm/community-or-open-source/agent-context.md) — build a user community or release open-source tooling if your GTM depends on developer adoption **[conditional — only if adoption strategy requires it]**
-13. [Reliability and support](../milestones/product-delivery/reliability-support-ops/agent-context.md) — define uptime targets, establish on-call coverage, and give customers a way to reach you
-14. [Customer and vendor contract templates](../milestones/operations-back-office/customer-vendor-contract-templates/agent-context.md) — standardize your MSA, DPA, and vendor agreements so deals don't stall in legal review
-15. [Security and privacy posture](../milestones/trust-compliance/security-and-privacy-posture/agent-context.md) — document data handling, access controls, and a vulnerability disclosure policy before enterprise buyers ask **[blocking for enterprise sales]**
-16. [Incident readiness](../milestones/trust-compliance/incident-readiness/agent-context.md) — build a playbook for when something breaks in production and customers are affected
-17. [Early team hires](../milestones/hiring-team/early-team-hires/agent-context.md) — your first 3–8 hires define culture; prioritize people who can operate without hand-holding
-18. [Interview process and bar](../milestones/hiring-team/interview-process-and-bar/agent-context.md) — define what good looks like before you start interviewing, so you hire consistently
-19. [Onboarding and async communication](../milestones/hiring-team/onboarding-and-async-comms/agent-context.md) — get new hires productive in week one and establish written norms for a distributed team
-20. [Operating rhythm](../milestones/hiring-team/operating-rhythm/agent-context.md) — weekly standups, monthly reviews, and quarterly planning that doesn't consume the team
-21. [Values and working norms](../milestones/hiring-team/values-and-working-norms/agent-context.md) — write down how decisions get made, how conflict gets resolved, and what behaviors are celebrated
+1. [Milestones that unlock the next round](../milestones/fundraising-runway/next-round-unlock-milestones/README.md) — know the exact metrics and proof points Series A investors expect to see
+2. [Raising a seed round](../milestones/fundraising-runway/raising-seed-round/README.md) — SAFEs, priced rounds, and how to structure a seed that doesn't harm your Series A
+3. [Investor pipeline and diligence](../milestones/fundraising-runway/investor-pipeline-diligence/README.md) — build a lead list, run a tight process, and prepare for diligence before it starts
+4. [Cap table hygiene](../milestones/operations-back-office/cap-table-hygiene/README.md) — clean up your ownership structure before new investors look at it
+5. [Runway dashboard and burn reviews](../milestones/operations-back-office/runway-dashboard-burn-reviews/README.md) — track spend against milestones weekly so you're never surprised by cash-out
+6. [Unit economics experiments](../milestones/fundraising-runway/unit-economics-experiments/README.md) — measure CAC, LTV, and payback period early, even if the numbers aren't pretty yet
+7. [Non-equity financing options](../milestones/fundraising-runway/non-equity-financing-options/README.md) — revenue-based financing, venture debt, and other ways to extend runway without dilution **[conditional — only if runway is tight]**
+8. [First paying users or design partners](../milestones/revenue-gtm/first-paying-users-design-partners/README.md) — close customers who pay real money or commit time in exchange for roadmap access **[blocking — required before goals 9–12]**
+9. [Feedback loop and metrics](../milestones/revenue-gtm/feedback-loop-metrics/README.md) — instrument your product and run a regular cadence of customer interviews
+10. [Pricing and packaging](../milestones/revenue-gtm/pricing-and-packaging/README.md) — test price points, understand willingness to pay, and structure tiers that hold up
+11. [Strategic design partners](../milestones/revenue-gtm/strategic-design-partners/README.md) — bring in reference customers whose name and use case opens doors with future buyers
+12. [Community or open source](../milestones/revenue-gtm/community-or-open-source/README.md) — build a user community or release open-source tooling if your GTM depends on developer adoption **[conditional — only if adoption strategy requires it]**
+13. [Reliability and support](../milestones/product-delivery/reliability-support-ops/README.md) — define uptime targets, establish on-call coverage, and give customers a way to reach you
+14. [Customer and vendor contract templates](../milestones/operations-back-office/customer-vendor-contract-templates/README.md) — standardize your MSA, DPA, and vendor agreements so deals don't stall in legal review
+15. [Security and privacy posture](../milestones/trust-compliance/security-and-privacy-posture/README.md) — document data handling, access controls, and a vulnerability disclosure policy before enterprise buyers ask **[blocking for enterprise sales]**
+16. [Incident readiness](../milestones/trust-compliance/incident-readiness/README.md) — build a playbook for when something breaks in production and customers are affected
+17. [Early team hires](../milestones/hiring-team/early-team-hires/README.md) — your first 3–8 hires define culture; prioritize people who can operate without hand-holding
+18. [Interview process and bar](../milestones/hiring-team/interview-process-and-bar/README.md) — define what good looks like before you start interviewing, so you hire consistently
+19. [Onboarding and async communication](../milestones/hiring-team/onboarding-and-async-comms/README.md) — get new hires productive in week one and establish written norms for a distributed team
+20. [Operating rhythm](../milestones/hiring-team/operating-rhythm/README.md) — weekly standups, monthly reviews, and quarterly planning that doesn't consume the team
+21. [Values and working norms](../milestones/hiring-team/values-and-working-norms/README.md) — write down how decisions get made, how conflict gets resolved, and what behaviors are celebrated
 
 ---
 

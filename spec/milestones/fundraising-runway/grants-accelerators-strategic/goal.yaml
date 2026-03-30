@@ -38,7 +38,7 @@ stage_relevance:
   primary: pre-seed
   applies_to: [pre-seed, seed]
 load:
-- goals/funding/grants-accelerators-strategic/agent-context.md
+- goals/funding/grants-accelerators-strategic/README.md
 - shared/roles/engineering-manager/responsibilities.md
 - industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
 - industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

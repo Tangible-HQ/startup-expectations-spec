@@ -12,7 +12,7 @@ stage_relevance:
   applies_to: [seed, series-a]
   ignore_before: pre-seed
 load:
-- goals/customers/community-or-open-source/agent-context.md
+- goals/customers/community-or-open-source/README.md
 - shared/roles/engineering-manager/responsibilities.md
 - industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
 - industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md

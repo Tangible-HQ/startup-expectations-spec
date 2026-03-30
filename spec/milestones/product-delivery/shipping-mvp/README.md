@@ -8,7 +8,7 @@
 
 ## What you are aiming for
 
-A working product at a declared level of quality that a real user can interact with, so you can observe whether your core hypothesis is correct. This milestone is about **execution and learning**, not re-litigating scope — scope belongs in [Defining MVP scope](../defining-mvp-scope/agent-context.md).
+A working product at a declared level of quality that a real user can interact with, so you can observe whether your core hypothesis is correct. This milestone is about **execution and learning**, not re-litigating scope — scope belongs in [Defining MVP scope](../defining-mvp-scope/README.md).
 
 ## What to focus on
 
@@ -38,9 +38,9 @@ Advance levels only when the previous level's learning supports it. Jumping from
 
 ## How this connects to other goals
 
-- **Customers** — a shipped MVP at L1+ produces signals for [first paying users](../../../revenue-gtm/first-paying-users-design-partners/agent-context.md) and [feedback loop](../../../revenue-gtm/feedback-loop-metrics/agent-context.md). No ship level guarantees revenue; it enables evidence.
+- **Customers** — a shipped MVP at L1+ produces signals for [first paying users](../../../revenue-gtm/first-paying-users-design-partners/README.md) and [feedback loop](../../../revenue-gtm/feedback-loop-metrics/README.md). No ship level guarantees revenue; it enables evidence.
 - **Funding** — investors want hypothesis-observable + learning-captured tied to a narrative. L0 rarely counts as traction; L1–L2 often do at early stage.
-- **Trust** — L3 almost always requires [security and privacy posture](../../../trust-compliance/security-and-privacy-posture/agent-context.md) and [incident readiness](../../../trust-compliance/incident-readiness/agent-context.md) to be in place.
+- **Trust** — L3 almost always requires [security and privacy posture](../../../trust-compliance/security-and-privacy-posture/README.md) and [incident readiness](../../../trust-compliance/incident-readiness/README.md) to be in place.
 
 ## Team impact
 

@@ -72,7 +72,7 @@ stage_relevance:
   primary: pre-seed
   applies_to: [pre-seed, seed]
 load:
-  - goals/building/shipping-mvp/agent-context.md
+  - goals/building/shipping-mvp/README.md
   - shared/roles/engineering-manager/responsibilities.md
   - industries/technology/segments/enterprise-saas/roles/engineering-manager/role.yaml
   - industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md
