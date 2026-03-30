@@ -1,7 +1,8 @@
 # Summary
 
 ## Welcome
-* [What is this?](README.md)
+* [Why this project exists](why-this-exists.md)
+* [What is this?](../README.md)
 
 ## Your stage — start here
 * [Pre-seed](maturity/pre-seed.md)
