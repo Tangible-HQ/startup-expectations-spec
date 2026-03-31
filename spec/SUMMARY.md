@@ -1,8 +1,8 @@
-# Summary
+# Startup Expectations Specifications
 
 ## Welcome
 * [Why this project exists](why-this-exists.md)
-* [How to use this guide](../README.md)
+
 
 ## Your stage — start here
 * [Pre-seed](maturity/pre-seed.md)
@@ -78,8 +78,14 @@
 * [Insurance when it matters](milestones/operations-back-office/insurance-d-and-o-epli/README.md)
 
 ## Roles
-* [Engineering manager — enterprise SaaS](industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md)
+* [CEO — baseline](shared/roles/ceo/responsibilities.md)
+* [CEO — enterprise SaaS](industries/technology/segments/enterprise-saas/roles/ceo/responsibilities.md)
+* [CTO — baseline](shared/roles/cto/responsibilities.md)
+* [CTO — enterprise SaaS](industries/technology/segments/enterprise-saas/roles/cto/responsibilities.md)
 * [Engineering manager — baseline](shared/roles/engineering-manager/responsibilities.md)
+* [Engineering manager — enterprise SaaS](industries/technology/segments/enterprise-saas/roles/engineering-manager/responsibilities.md)
+* [Software engineer — baseline](shared/roles/software-engineer/responsibilities.md)
+* [Software engineer — enterprise SaaS](industries/technology/segments/enterprise-saas/roles/software-engineer/responsibilities.md)
 
 ## For contributors
 * [Full milestone catalog](milestones/milestone-catalog.md)

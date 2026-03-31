@@ -2,7 +2,12 @@
 
 A plain-language guide to what "good" looks like at each stage of building a company — written for founders and operators, not HR departments.
 
-Open source under Apache 2.0. Free to read, fork, embed, and build on.
+[![GitHub Stars](https://img.shields.io/github/stars/Subtext-labs/startup-expectations-spec?style=social)](https://github.com/Subtext-labs/startup-expectations-spec)
+[![GitHub Forks](https://img.shields.io/github/forks/Subtext-labs/startup-expectations-spec?style=social)](https://github.com/Subtext-labs/startup-expectations-spec/fork)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Subtext-labs/startup-expectations-spec)](https://github.com/Subtext-labs/startup-expectations-spec/commits/main)
+
+**[Read on GitBook →](https://subtext-2.gitbook.io/startup-expectations-specifications)** · **[Star on GitHub](https://github.com/Subtext-labs/startup-expectations-spec)** · Built by [Amandeep Singh](https://github.com/adsingh)
 
 ---
 
@@ -43,7 +48,7 @@ This project is designed to be readable and usable in three distinct ways.
 
 ### For humans
 
-Read it on GitBook. Start with your stage guide, follow the phase table, and click through to individual milestone pages. Each milestone page explains what you are aiming for, what to focus on, and common ways it goes wrong — in plain language, without assumed knowledge.
+Read it on [GitBook](https://subtext-2.gitbook.io/startup-expectations-specifications). Start with your stage guide, follow the phase table, and click through to individual milestone pages. Each milestone page explains what you are aiming for, what to focus on, and common ways it goes wrong — in plain language, without assumed knowledge.
 
 ### For AI agents and copilots
 
@@ -53,7 +58,7 @@ The spec includes a structured machine-readable layer designed for agent navigat
 2. **Navigate by stage** via [`spec/maturity/index.yaml`](spec/maturity/index.yaml) — ordered `milestone_ids` per stage
 3. **Navigate by category** via [`spec/goals/_registry.yaml`](spec/goals/_registry.yaml) — six categories with goal paths
 4. **Load each milestone** via its `goal.yaml` — structured outcome data, signals, and load order
-5. **Read context** via each milestone's `agent-context.md` — human-language guidance written to be unambiguous for language models
+5. **Read context** via each milestone's `README.md` — human-language guidance written to be unambiguous for language models
 
 The `agent_protocol` block in `manifest.yaml` spells out the exact traversal sequence. Agents should start there rather than crawling the directory tree.
 
@@ -80,8 +85,9 @@ Every goal has a short page covering:
 
 - **What you are aiming for** — the outcome in plain language
 - **What to focus on** — the 2–3 things that move the needle at this stage
-- **What to worry less about** — what does not belong in this milestone
-- **How expectations change** — what this milestone means for your team and role
+- **What to deprioritize** — what does not belong in this milestone
+- **Quality levels** — L0 through L3 so you know where you stand
+- **How this connects** — cross-links to related milestones
 
 ---
 
@@ -99,12 +105,12 @@ This project is licensed under the [Apache License, Version 2.0](LICENSE).
 | Sublicense and sell | — | — |
 | Use in AI training, agent systems, or embedded tooling | Attribute the source if you distribute the output | — |
 
-The full license text is in [`LICENSE`](LICENSE). The [Apache 2.0 FAQ](https://www.apache.org/licenses/LICENSE-2.0) covers edge cases.
+The full license text is in [`LICENSE`](LICENSE).
 
 **Attribution format for derivatives or redistributions:**
 
 ```
-Based on Startup Expectations (https://github.com/adsingh/startup-expectations-spec-1)
+Based on Startup Expectations (https://github.com/Subtext-labs/startup-expectations-spec)
 Licensed under Apache 2.0
 ```
 
@@ -112,4 +118,33 @@ Licensed under Apache 2.0
 
 ## Contributing
 
-To add or improve a milestone, see the [schema reference](spec/schema/goal.schema.json) and open a pull request. Machine-readable indexes live in `spec/goals/_registry.yaml` and `spec/milestone-index.yaml`.
+Contributions help this spec stay grounded in how real teams build. To add or improve a milestone, see the [schema reference](spec/schema/goal.schema.json) and open a pull request.
+
+If you find a gap — a stage, role, or scenario that's missing — open an issue describing it. Even a one-line description of what felt missing is useful.
+
+By participating in issues, pull requests, or discussions, you agree to follow this repository’s **[Code of Conduct](CODE_OF_CONDUCT.md)** and GitHub’s [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct).
+
+---
+
+## Community and moderation
+
+Participation here is covered by GitHub’s platform rules and by our **[Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md)** (harassment-free, professional discussion; enforcement steps are described in that file).
+
+Maintainers may label, request changes on, close, or lock issues and pull requests; remove or reject contributions that break the CoC or derail work; and restrict repository access when needed. Reports of unacceptable behavior go through the contact path in [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md); use [GitHub’s abuse reporting](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam) for account or safety concerns on GitHub itself.
+
+---
+
+## Support this project
+
+If **Startup Expectations Specifications** is useful to you, you can help without writing code:
+
+- **[Star the repository](https://github.com/Subtext-labs/startup-expectations-spec)** on GitHub so more people discover it
+- **Share** this README or the [GitBook](https://subtext-2.gitbook.io/startup-expectations-specifications) with founders, operators, or teams building on the spec
+- **Fork** and adapt the content under Apache 2.0 for your own playbooks or products
+- **Open issues and pull requests** with fixes, gaps, or industry-specific nuance (see Contributing)
+
+Visibility and feedback keep the spec honest and widely useful.
+
+---
+
+*Built by [Amandeep Singh](https://github.com/adsingh) · [GitHub](https://github.com/Subtext-labs/startup-expectations-spec) · [GitBook](https://subtext-2.gitbook.io/startup-expectations-specifications) · [Code of Conduct](CODE_OF_CONDUCT.md) · Apache 2.0*

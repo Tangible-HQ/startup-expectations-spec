@@ -1,0 +1,13 @@
+id: cto
+title: CTO
+summary: Owns technical direction, architecture, and the engineering team that executes it.
+version: "0.1.0"
+aliases:
+  - Chief Technology Officer
+  - Founding CTO
+  - Co-founder and CTO
+  - VP Engineering
+relevant_from: pre-seed
+extends:
+  - shared/roles/cto/responsibilities.md
+responsibilities_document: responsibilities.md

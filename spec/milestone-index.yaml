@@ -1,5 +1,5 @@
 version: "1.0.0"
-description: Flat index of milestones for search and discovery.
+description: Flat index of milestones for Startup Expectations Specifications (search and discovery).
 milestones:
 - id: board-investor-reporting-rhythm
   category: funding

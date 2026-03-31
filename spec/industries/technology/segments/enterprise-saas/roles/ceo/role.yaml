@@ -1,0 +1,12 @@
+id: ceo
+title: CEO
+summary: Sets direction, owns fundraising and narrative, and builds the team and resources to execute.
+version: "0.1.0"
+aliases:
+  - Chief Executive Officer
+  - Founding CEO
+  - Co-founder and CEO
+relevant_from: pre-seed
+extends:
+  - shared/roles/ceo/responsibilities.md
+responsibilities_document: responsibilities.md

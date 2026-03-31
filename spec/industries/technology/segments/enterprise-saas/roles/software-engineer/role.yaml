@@ -1,0 +1,14 @@
+id: software-engineer
+title: Software engineer
+summary: Designs, builds, and maintains software that delivers value to customers.
+version: "0.1.0"
+aliases:
+  - Engineer
+  - Software developer
+  - Full-stack engineer
+  - Backend engineer
+  - Frontend engineer
+relevant_from: pre-seed
+extends:
+  - shared/roles/software-engineer/responsibilities.md
+responsibilities_document: responsibilities.md

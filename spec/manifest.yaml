@@ -1,4 +1,7 @@
 version: "1.0.0"
+product:
+  name: Startup Expectations Specifications
+  short_name: Startup Expectations
 schema:
   role: schema/role.schema.json
   goal: schema/goal.schema.json

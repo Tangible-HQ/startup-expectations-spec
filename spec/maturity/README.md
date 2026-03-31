@@ -1,6 +1,6 @@
 # Maturity (pre-seed → seed → Series A)
 
-Use this folder when **stage matters more than category**. Each file is an **ordered guide** — it explains the job of the stage, how to sequence the work, common traps, and exit signals. The machine-readable index is in [index.yaml](index.yaml).
+In **Startup Expectations Specifications**, use this folder when **stage matters more than category**. Each file is an **ordered guide** — it explains the job of the stage, how to sequence the work, common traps, and exit signals. The machine-readable index is in [index.yaml](index.yaml).
 
 | Stage | List |
 |-------|------|

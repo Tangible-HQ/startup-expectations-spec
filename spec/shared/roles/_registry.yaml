@@ -1,4 +1,10 @@
 version: "1.0.0"
 roles:
+  - id: ceo
+    path: ceo
+  - id: cto
+    path: cto
   - id: engineering-manager
     path: engineering-manager
+  - id: software-engineer
+    path: software-engineer

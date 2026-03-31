@@ -1,6 +1,6 @@
 # Milestone catalog — startups under ~2 years
 
-Common goals early teams work toward. Each item has **one primary bucket** (`funding`, `building`, `customers`, `trust`, `operations`, or `team`) in this repo; real life often touches two—pick the main question you are trying to answer.
+This catalog is part of **Startup Expectations Specifications**. Common goals early teams work toward. Each item has **one primary bucket** (`funding`, `building`, `customers`, `trust`, `operations`, or `team`) in this repo; real life often touches two—pick the main question you are trying to answer.
 
 **Maturity-first path:** if you only care about **pre-seed → seed → Series A**, use the ordered lists in **`../maturity/`** (`pre-seed.md`, `seed.md`, `series-a.md`) instead of this category-first catalog.
 
