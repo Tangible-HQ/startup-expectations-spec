@@ -3,7 +3,6 @@
 ## Welcome
 
 * [Why this project exists](README.md)
-* [How to use this guide](../README.md)
 
 ## Your stage — start here
 
