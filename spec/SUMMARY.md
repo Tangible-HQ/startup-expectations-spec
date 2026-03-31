@@ -1,15 +1,18 @@
 # Startup Expectations Specifications
 
 ## Welcome
-* [Why this project exists](why-this-exists.md)
 
+* [Why this project exists](README.md)
+* [How to use this guide](../README.md)
 
 ## Your stage — start here
+
 * [Pre-seed](maturity/pre-seed.md)
 * [Seed](maturity/seed.md)
 * [Series A](maturity/series-a.md)
 
 ## Funding & runway
+
 * [All funding goals at a glance](milestones/milestone-catalog.md)
 * [Raising a seed round](milestones/fundraising-runway/raising-seed-round/README.md)
 * [Early financing rounds](milestones/fundraising-runway/early-financing-rounds/README.md)
@@ -23,6 +26,7 @@
 * [Wind-down or acqui-hire optionality](milestones/fundraising-runway/wind-down-or-acqui-hire-optionality/README.md)
 
 ## Build & ship
+
 * [Defining MVP scope](milestones/product-delivery/defining-mvp-scope/README.md)
 * [Technical foundation](milestones/product-delivery/technical-foundation/README.md)
 * [Shipping your MVP](milestones/product-delivery/shipping-mvp/README.md)
@@ -30,10 +34,11 @@
 * [Reliability and support](milestones/product-delivery/reliability-support-ops/README.md)
 * [Pivot or scope cut](milestones/product-delivery/pivot-or-scope-cut/README.md)
 * [Product surface expansion](milestones/product-delivery/product-surface-expansion/README.md)
-* [Deep tech and R&D milestones](milestones/product-delivery/deep-tech-r-and-d-milestones/README.md)
+* [Deep tech and R\&D milestones](milestones/product-delivery/deep-tech-r-and-d-milestones/README.md)
 * [Hardware and physical goods](milestones/product-delivery/hardware-and-physical-goods/README.md)
 
 ## Customers & revenue
+
 * [ICP and wedge](milestones/revenue-gtm/icp-and-wedge/README.md)
 * [Problem–solution validation](milestones/revenue-gtm/problem-solution-validation/README.md)
 * [Positioning and story](milestones/revenue-gtm/positioning-and-story/README.md)
@@ -48,6 +53,7 @@
 * [International expansion](milestones/revenue-gtm/international-expansion/README.md)
 
 ## Team & hiring
+
 * [Founding roles and equity](milestones/hiring-team/founding-roles-equity-decisions/README.md)
 * [Co-founder alignment](milestones/hiring-team/co-founder-alignment/README.md)
 * [Founder sustainability](milestones/hiring-team/founder-sustainability/README.md)
@@ -62,6 +68,7 @@
 * [Immigration and work authorization](milestones/hiring-team/immigration-and-work-authorization/README.md)
 
 ## Trust & compliance
+
 * [IP and trademarks basics](milestones/trust-compliance/ip-trademarks-basics/README.md)
 * [Security and privacy posture](milestones/trust-compliance/security-and-privacy-posture/README.md)
 * [Incident readiness](milestones/trust-compliance/incident-readiness/README.md)
@@ -71,6 +78,7 @@
 * [Dual mission or structure](milestones/trust-compliance/dual-mission-structure/README.md)
 
 ## Operations
+
 * [Company financial backbone](milestones/operations-back-office/company-financial-backbone/README.md)
 * [Cap table hygiene](milestones/operations-back-office/cap-table-hygiene/README.md)
 * [Runway dashboard and burn reviews](milestones/operations-back-office/runway-dashboard-burn-reviews/README.md)
@@ -78,6 +86,7 @@
 * [Insurance when it matters](milestones/operations-back-office/insurance-d-and-o-epli/README.md)
 
 ## Roles
+
 * [CEO — baseline](shared/roles/ceo/responsibilities.md)
 * [CEO — enterprise SaaS](industries/technology/segments/enterprise-saas/roles/ceo/responsibilities.md)
 * [CTO — baseline](shared/roles/cto/responsibilities.md)
@@ -88,4 +97,5 @@
 * [Software engineer — enterprise SaaS](industries/technology/segments/enterprise-saas/roles/software-engineer/responsibilities.md)
 
 ## For contributors
+
 * [Full milestone catalog](milestones/milestone-catalog.md)
