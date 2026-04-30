@@ -1,6 +1,6 @@
 # Series A
 
-Systematize what works. You are no longer finding the answer — you are scaling it. Every decision should reduce founder dependency and increase repeatability. Investors are watching whether you can build a company, not just a product.
+> Systematize what works. You are no longer finding the answer — you are scaling it. Every decision should reduce founder dependency and increase repeatability. Investors are watching whether you can build a company, not just a product.
 
 **[blocking]** = required within the first 90 days. **[conditional]** = skip if it doesn't apply to your company type. Goals 1–3 are the foundation everything else depends on — run them before anything parallel.
 

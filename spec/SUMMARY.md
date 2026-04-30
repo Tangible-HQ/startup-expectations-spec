@@ -97,4 +97,6 @@
 
 ## For contributors
 
+* [Contributing](../CONTRIBUTING.md)
+* [Content status — stubs & publication readiness](CONTENT_STATUS.md)
 * [Full milestone catalog](milestones/milestone-catalog.md)

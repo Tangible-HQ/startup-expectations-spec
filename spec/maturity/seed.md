@@ -1,6 +1,6 @@
 # Seed
 
-Get to first repeatable signal — paying users, measurable retention, or a clearly de-risked thesis. The question investors are asking: can you acquire and keep customers without heroics?
+> Get to first repeatable signal — paying users, measurable retention, or a clearly de-risked thesis. The question investors are asking: can you acquire and keep customers without heroics?
 
 **[blocking]** = required before goals listed after it. **[conditional]** = skip if it doesn't apply. Run the customer track and the housekeeping track simultaneously — don't work through this list linearly.
 

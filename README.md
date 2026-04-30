@@ -118,7 +118,9 @@ Licensed under Apache 2.0
 
 ## Contributing
 
-Contributions help this spec stay grounded in how real teams build. To add or improve a milestone, see the [schema reference](spec/schema/goal.schema.json) and open a pull request.
+Contributions help this spec stay grounded in how real teams build. For **next steps**—where to open issues and PRs, which schemas and indexes to read, and how milestone pages fit together—see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+
+Quick links: [new issue](https://github.com/Subtext-labs/startup-expectations-spec/issues/new) · [new pull request](https://github.com/Subtext-labs/startup-expectations-spec/compare) · [goal schema](spec/schema/goal.schema.json) · [milestone catalog](spec/milestones/milestone-catalog.md)
 
 If you find a gap — a stage, role, or scenario that's missing — open an issue describing it. Even a one-line description of what felt missing is useful.
 

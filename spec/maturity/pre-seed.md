@@ -1,6 +1,6 @@
 # Pre-seed
 
-Prove the problem is real and your team can learn fast. Every decision should serve learning speed, not scale. Investors at this stage are betting on founders and thesis — not the product.
+> Prove the problem is real and your team can learn fast. Every decision should serve learning speed, not scale. Investors at this stage are betting on founders and thesis — not the product.
 
 **[blocking]** = complete before moving on. **[conditional]** = skip if it doesn't apply. Goals are ordered by dependency, not importance.
 

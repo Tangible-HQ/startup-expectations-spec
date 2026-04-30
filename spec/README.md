@@ -34,4 +34,6 @@ If you build tools—checklists, copilots, planning apps, hiring flows, board pa
 
 We want this to improve with real founder and operator experience. **Contributions are welcome**: tighten wording, add goals or stages that reflect how you build, fix gaps, or suggest structure in issues and pull requests. Whether you edit one page or propose a larger change, you help make the foundation more useful for the next team.
 
+**Next steps:** [Contributing guide](../CONTRIBUTING.md) · [Open an issue](https://github.com/Subtext-labs/startup-expectations-spec/issues/new) · [Open a pull request](https://github.com/Subtext-labs/startup-expectations-spec/compare)
+
 If you are unsure where to start, open an issue describing the scenario (stage, team size, industry) and what felt missing—we can point you at the right place in the spec.
