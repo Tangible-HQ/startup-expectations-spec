@@ -53,11 +53,18 @@ const EXCLUDE_FILES = new Set(['scripts/scan-polinrider.mjs'])
 
 const CONTENT_PATTERNS = [
   { id: 'rmcej-token', re: /rmcej%otb%/ },
+  { id: 'rmcej-datadog-tuple', re: /rmcej%otb%['"],\s*2857687/ },
   { id: 'global-bang', re: /global\s*\[\s*['"]!['"]\s*\]/ },
   { id: 'global-_V', re: /global\s*\[\s*['"]_V['"]\s*\]/ },
   { id: 'decoder-var', re: /_\$_1e42/ },
   { id: 'cot-token', re: /Cot%3t=shtP/ },
   { id: 'function-mdy', re: /function\s+MDy\b/ },
+  { id: 'npm-tailwindcss-style-animate', re: /tailwindcss-style-animate/ },
+  { id: 'npm-tailwind-mainanimation', re: /tailwind-mainanimation/ },
+  { id: 'npm-tailwind-autoanimation', re: /tailwind-autoanimation/ },
+  { id: 'npm-tailwind-animationbased', re: /tailwind-animationbased/ },
+  { id: 'npm-tailwindcss-typography-style', re: /tailwindcss-typography-style/ },
+  { id: 'npm-common-stack-generate-plugin', re: /@common-stack\/generate-plugin/ },
   { id: 'c2-260120', re: /260120\.vercel\.app/ },
   { id: 'c2-default-config', re: /default-configuration\.vercel\.app/ },
   { id: 'c2-vscode-bootstrap', re: /vscode-settings-bootstrap\.vercel\.app/ },
