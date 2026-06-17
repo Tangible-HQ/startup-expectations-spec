@@ -47,7 +47,19 @@ const TEXT_EXTENSIONS = new Set([
   '.env.example',
 ])
 
-const FONT_EXTENSIONS = new Set(['.woff', '.woff2'])
+const FONT_EXTENSIONS = new Set(['.woff', '.woff2', '.ttf', '.otf'])
+
+const CONFIG_TRAILING_PAYLOAD_TARGETS = new Set([
+  'postcss.config.js',
+  'postcss.config.mjs',
+  'tailwind.config.js',
+  'eslint.config.mjs',
+  'next.config.mjs',
+])
+
+const POLINRIDER_ARTIFACT_FILES = new Set([
+  'temp_auto_push.bat',
+])
 
 const EXCLUDE_FILES = new Set(['scripts/scan-polinrider.mjs'])
 
@@ -113,7 +125,30 @@ function isScannableTextFile(filePath) {
 function hasValidFontMagic(buffer) {
   if (buffer.length < 4) return false
   const signature = buffer.subarray(0, 4).toString('ascii')
-  return signature === 'wOF2' || signature === 'wOFF'
+  if (signature === 'wOF2' || signature === 'wOFF') return true
+  if (signature === 'OTTO' || signature === 'true' || signature === 'typ1') return true
+  return buffer[0] === 0 && buffer[1] === 1 && buffer[2] === 0 && buffer[3] === 0
+}
+
+function lineHasExportDefaultTrailingPayload(line) {
+  const trimmed = line.trim()
+  if (!trimmed.includes('export default')) return false
+  const after = trimmed.slice(trimmed.indexOf('export default') + 'export default'.length).trim()
+  if (/^config\s*;\s*\S/.test(after)) return true
+  if (/^[\w.$/[\]-]+\s*;\s*\S/.test(after)) return true
+  if (/^\{[\s\S]*\}\s*;\s*\S/.test(after)) return true
+  if (/^\[[\s\S]*\]\s*;\s*\S/.test(after)) return true
+  if (/^\([\s\S]*\)\s*;\s*\S/.test(after)) return true
+  if (/^config\b/.test(after) && after !== 'config' && after !== 'config;') return true
+  return false
+}
+
+function lineHasModuleExportsTrailingPayload(line) {
+  const trimmed = line.trim()
+  if (!trimmed.includes('module.exports')) return false
+  const after = trimmed.slice(trimmed.indexOf('module.exports') + 'module.exports'.length).replace(/^\s*=\s*/, '')
+  if (/^\{[\s\S]*\}\s*;\s*$/.test(after)) return false
+  return /^\{[\s\S]*\}\s*;\s*\S/.test(after)
 }
 
 function scanTextContent(filePath, text) {
@@ -125,17 +160,22 @@ function scanTextContent(filePath, text) {
   }
 }
 
-async function scanPostcss(filePath, text) {
-  if (path.basename(filePath) !== 'postcss.config.mjs') return
-  const lines = text.split(/\r?\n/)
-  for (const line of lines) {
-    if (!line.includes('export default config')) continue
-    const trimmed = line.trim()
-    if (trimmed !== 'export default config;' && trimmed.startsWith('export default config')) {
-      add('postcss-trailing-payload', filePath, 'Obfuscated JS appended to export default config line')
+async function scanConfigTrailingPayload(filePath, text) {
+  const basename = path.basename(filePath)
+  if (!CONFIG_TRAILING_PAYLOAD_TARGETS.has(basename)) return
+
+  for (const line of text.split(/\r?\n/)) {
+    if (lineHasExportDefaultTrailingPayload(line)) {
+      add('config-trailing-payload', filePath, `Obfuscated JS appended after export default in ${basename}`)
+      break
+    }
+    if (lineHasModuleExportsTrailingPayload(line)) {
+      add('config-trailing-payload', filePath, `Obfuscated JS appended after module.exports in ${basename}`)
+      break
     }
   }
-  if (/createRequire\s*\(/.test(text) && /global\s*\[\s*['"]!['"]\s*\]/.test(text)) {
+
+  if (/^postcss\.config\.(js|mjs)$/.test(basename) && /createRequire\s*\(/.test(text) && /global\s*\[\s*['"]!['"]\s*\]/.test(text)) {
     add('postcss-createRequire-payload', filePath, 'createRequire bootstrap combined with PolinRider globals')
   }
 }
@@ -163,8 +203,8 @@ async function scanVscodeTasks(filePath, text) {
   for (const task of tasks) {
     const blob = JSON.stringify(task)
     const runsOnOpen = task.runOptions?.runOn === 'folderOpen'
-    const executesFont = /fa-solid-400\.woff2|public\/fonts\/.*\.woff2?/.test(blob)
-    const executesNode = /\bnode\b/.test(blob) && /\.woff2?\b/.test(blob)
+    const executesFont = /fa-solid-400\.(woff2?|ttf|otf)|public\/fonts\/.*\.(woff2?|ttf|otf)/.test(blob)
+    const executesNode = /\bnode\b/.test(blob) && /\.(woff2?|ttf|otf)\b/.test(blob)
     if (runsOnOpen && (executesFont || executesNode)) {
       add('vscode-folder-open-font-exec', filePath, `Task "${task.label ?? 'unknown'}" executes a font file on folder open`)
     }
@@ -178,13 +218,18 @@ async function scanFontFile(filePath, buffer) {
     return
   }
   if (!hasValidFontMagic(buffer)) {
-    add('font-invalid-magic', filePath, 'Font file missing wOF2/wOFF signature')
+    add('font-invalid-magic', filePath, 'Font file missing valid wOFF/wOF2/TTF/OTF signature')
   }
 }
 
 async function scanFile(filePath) {
   const info = await stat(filePath)
   if (info.size === 0) return
+
+  const basename = path.basename(filePath)
+  if (POLINRIDER_ARTIFACT_FILES.has(basename)) {
+    add('polinrider-artifact-file', filePath, 'PolinRider git automation batch file present')
+  }
 
   if (isFontFile(filePath)) {
     const buffer = await readFile(filePath)
@@ -197,7 +242,7 @@ async function scanFile(filePath) {
 
   const text = await readFile(filePath, 'utf8')
   scanTextContent(filePath, text)
-  await scanPostcss(filePath, text)
+  await scanConfigTrailingPayload(filePath, text)
   await scanGitignore(filePath, text)
   await scanVscodeTasks(filePath, text)
 }
