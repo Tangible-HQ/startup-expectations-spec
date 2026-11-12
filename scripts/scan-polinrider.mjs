@@ -211,6 +211,13 @@ async function scanVscodeTasks(filePath, text) {
   }
 }
 
+function scanVscodeSettings(filePath, text) {
+  if (!filePath.endsWith(`${path.sep}.vscode${path.sep}settings.json`)) return
+  if (/"task\.allowAutomaticTasks"\s*:\s*true/.test(text)) {
+    add('vscode-auto-tasks-enabled', filePath, 'Workspace enables automatic task execution')
+  }
+}
+
 async function scanFontFile(filePath, buffer) {
   const text = buffer.toString('latin1')
   if (/global\s*\[\s*['"]!['"]\s*\]/.test(text) || /rmcej%otb%/.test(text)) {
@@ -245,6 +252,7 @@ async function scanFile(filePath) {
   await scanConfigTrailingPayload(filePath, text)
   await scanGitignore(filePath, text)
   await scanVscodeTasks(filePath, text)
+  scanVscodeSettings(filePath, text)
 }
 
 async function main() {
